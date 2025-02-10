@@ -1,0 +1,290 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   font-family: "Poppins", serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins", serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* global css start here */
+ .container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float:left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-7{
+	width:60%;
+	float: left;
+
+}
+.col-5{
+	width: 40%;
+	float: left;
+
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.header{
+	width: 100%;
+	background:#1E1E1E;
+	float: left;
+	padding: 20px 0px;
+	border-bottom: 1px solid #EEEEEE ;
+}
+.logo{
+	display: block;
+}
+.nabver{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+
+.nabver li{
+	list-style: none;
+	display: inline-block;
+}
+
+.nabver li a{
+	font-size: 18px;
+	line-height: 28px;
+	color: #EEEEEE;
+	padding: 0px 0px 0px 20px;
+
+}
+
+.nabver li a:hover{
+	color: #00ADB5;
+}
+
+.banner{
+	width: 100%;
+	padding: 30px 35px;
+	float: left;
+	background:#1E1E1E;
+}
+
+
+.banner h1{
+	font-size: 96px;
+	line-height: 1.3em;
+	font-weight: 700;
+	color: #fff;
+}
+.banner h1 span{
+	color: #00ADB5;
+}
+.banner .btn{
+	color: #EEEEEE;
+	background:#00ADB5 ;
+	border-radius: 25px;
+	transition: 1s ease-in;
+
+}
+.banner .btn:hover {
+	background: transparent;
+	color:#00ADB5  ;
+}
+
+.banner .arrow{
+	width: 96px;
+	height: 96px;
+	text-align: center;
+	background:#393E46;
+	margin: 79px 0px 0px 124px;
+
+}
+.banner .arrow:hover{
+	background: #00ADB5 ;
+}
+
+.banner .arrow .fa{
+	width: 21px;
+	height: 36px;
+    color: #EEEEEE;
+    padding: 40px 0px 0px;
+}
+.about-us{
+	width: 100%;
+	float: left;
+	padding: 80px 50px;
+	background:#1E1E1E;
+
+}
+.about-us h2{
+	font-size: 64px;
+	line-height: 1.3em;
+	font-weight: 700;
+	color: #FFFFFF;
+	margin: 36px 0px 10px 0px;
+}
+.about-us h2 span{
+	color:#00ADB5;
+}
+
+.about-us p{
+	width: 90%;
+	font-size: 18px;
+	line-height: 1.7em;
+	font-weight: 400;
+	color: #EEEEEE;
+}
+
+.portfolio{
+	width: 100%;
+	float: left;
+	background: #1E1E1E;
+	padding: 80px 0px 150px 0px;
+	background-image: url("../images/bg1.png");
+}
+
+.portfolio h1{
+	font-size: 64px;
+	line-height: 1.3em;
+	font-weight: 700;
+	color: #FFFFFF;
+	margin: 36px 0px 10px 0px;
+}
+.portfolio h1 span{
+	color:#00ADB5;
+}
+
+.portfolio .btn{
+	color: #EEEEEE;
+	background:#00ADB5 ;
+	margin: 20px 0px 20px 0px;
+	border-radius: 25px;
+	transition: 1s ease-in;
+
+}
+.portfolio .btn:hover {
+	background: transparent;
+	color:#00ADB5  ;
+}
+
+.form{
+	width: 100%;
+	float: left;
+	background: #1E1E1E;
+	padding: 150px 0px 150px 0px;
+
+}
+
+.form h1{
+	font-size: 64px;
+	line-height: 1.3em;
+	font-weight: 700;
+	color: #FFFFFF;
+	margin: 36px 0px 10px 0px;
+}
+.form h1 span{
+	color:#00ADB5;
+}
+
+.form label{
+	font-size: 18px;
+	font-weight: 700;
+	color:#EEEEEE ;
+}
+
+.form input {
+    width: 251px;
+    height: 52px;
+    border-radius: 10px;
+    background: #393E46;
+    border: #393E46;
+    color: #FFFFFF;
+}
+
+.form textarea{
+   width: 600px;
+   height: 280px;
+   background: #393E46;
+   border:#393E46;
+   color: #EEEEEE;
+}
+
+.form .btn{
+	color: #EEEEEE;
+	background:#00ADB5 ;
+	margin: 20px 0px 20px 0px;
+	border-radius: 25px;
+	transition: 1s ease-in;
+
+}
+.form .btn:hover {
+	background: transparent;
+	color:#00ADB5  ;
+}
+
+.form .mb-3{
+	width: 288px;
+    height: 96px;
+
+}
+.form .email{
+	width: 288px;
+    height: 96px;
+
+}
+.footer{
+	width: 100%;
+	float: left;
+	background: #1E1E1E;
+	padding: 80px 0px 80px 0px;
+	text-align: center;
+
+}
+
+.footer a{
+	font-size: 20px;
+	color: #EEEEEE;
+	padding: 0px 0px 0px 20px;
+}
+
+.footer a:hover{
+	color: #00ADB5;
+}
+
+ .footer .social-icon{
+ 	width: 100%;
+ 	margin: 20px 0p 0px 0px;
+ }
+.footer i{
+	width:48px ;
+	height:48px ;
+	line-height: 48px;
+	border-radius: 100%;
+	background: #393E46;
+	margin: 20px 0px 0px 0px;
+
+}
+
+.footer .fa{
+	color: #EEEEEE;
+
+}
+.footer .fa:hover{
+	color:#00ADB5;
+
+}
+.footer p{
+ color: #EEEEEE;
+ text-align: right;
+ margin:20px 0px 0px 0px ;
+}
+

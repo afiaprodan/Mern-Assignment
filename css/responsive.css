@@ -1,0 +1,724 @@
+
+ /*--------css media quaries : screen resulation:279px to 319px------*/
+
+@media (min-width:279px) and (max-width: 319px){
+/*------css start-----*/
+.container{
+  width: 93%;
+  float: left;
+  
+}
+
+.row{
+	width: 100%;
+	float: left;
+	padding: 0px 15px;
+}
+
+.col-6{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float:left;
+}
+.col-5{ 
+	width: 100%;
+	float: left;
+
+}
+.col-7{
+width: 100%;
+	float: left;
+}
+.logo{
+	display: block;
+	text-align: center;
+}
+.navbar{
+	width: 100%;
+	text-align: center;
+}
+.nabver li a {
+    font-size: 9px;
+    line-height: 17px;
+    color: #EEEEEE;
+    padding: 0px 14px 0px 0px;
+}
+
+.banner .arrow{
+	width: 96px;
+	height: 96px;
+	text-align: center;
+	background:#393E46;
+	margin: 79px 0px 0px 124px;
+
+}
+.banner h1 {
+    font-size: 24px;
+    line-height: 1.2em;
+    
+}
+.banner .btn {
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+ }
+
+ .banner .arrow {
+    width: 91px;
+    height: 89px;
+    text-align: center;
+    background: #393E46;
+    margin: 48px 0px 34px 47px;
+}
+
+.about-us h2{
+	font-size: 24px;
+	line-height: 1.2em;
+
+}
+
+
+.about-us p{
+	font-size: 9px;
+	line-height: 1.7em;
+}
+.logo {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.about-us {
+    width: 100%;
+    padding: 50px 0px;
+    
+}
+
+.portfolio h1 {
+    font-size: 26px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 36px 0px 10px 0px;
+}
+
+.portfolio {
+    width: 100%;
+    float: left;
+    background: #1E1E1E;
+    padding: 50px 0px 50px 0px;
+    background-image: url("../images/bg1.png");
+}
+
+.portfolio .btn {
+    width: 100%;
+    color: #EEEEEE;
+    background: #00ADB5;
+    margin: 20px 0px 20px 0px;
+    border-radius: 25px;
+    transition: 1s ease-in;
+}
+
+.form {
+    width: 100%;
+    float: left;
+    background: #1E1E1E;
+    padding: 50px 0px 50px 0px;
+}
+
+.form h1 {
+    font-size: 26px;
+    line-height: 1.3em;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 36px 0px 10px 0px;
+}
+
+.form textarea {
+    width: 276px;
+    height: 214px;
+    background: #393E46;
+    border: #393E46;
+    color: #EEEEEE;
+}
+
+.form .btn {
+    width: 100%;
+    color: #EEEEEE;
+    background: #00ADB5;
+    margin: 20px 0px 20px 0px;
+    border-radius: 25px;
+    transition: 1s ease-in;
+}
+
+.footer a {
+    font-size: 9px;
+    color: #EEEEEE;
+    padding: 0px 0px 0px 10px;
+}
+
+.footer i {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 100%;
+    background: #393E46;
+    margin: 20px 0px 0px 0px;
+}
+
+
+
+ .footer p{
+ 	font-size:9px ;
+ 	line-height: 1.7em;
+ 	text-align: center;
+ }
+
+/*------css end-----*/
+ }
+
+
+ /*--------css media quaries : most of the mobile device 
+           screen resulation:320px to 480px------*/
+ 
+  @media (min-width: 320px) and (max-width: 480px) {
+/*------css start-----*/
+.container{
+  width: 95%;
+  float: left;
+  
+}
+
+.row{
+	width: 100%;
+	float: left;
+	padding: 0px 15px;
+}
+
+.col-6{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float:left;
+}
+.col-5{ 
+	width: 100%;
+	float: left;
+
+}
+.col-7{
+width: 100%;
+	float: left;
+}
+.logo{
+	display: block;
+	text-align: center;
+}
+.navbar{
+	width: 100%;
+	text-align: center;
+}
+.nabver li a {
+    font-size: 12px;
+    line-height: 17px;
+    color: #EEEEEE;
+    padding: 0px 14px 0px 0px;
+}
+
+.banner .arrow{
+	width: 96px;
+	height: 96px;
+	text-align: center;
+	background:#393E46;
+	margin: 79px 0px 0px 124px;
+
+}
+.banner h1 {
+    font-size: 26px;
+    line-height: 1.2em;
+    
+}
+.banner .btn {
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+ }
+
+ .banner .arrow {
+    width: 91px;
+    height: 89px;
+    text-align: center;
+    background: #393E46;
+    margin: 48px 0px 34px 47px;
+}
+
+.about-us h2{
+	font-size: 26px;
+	line-height: 1.2em;
+
+}
+
+
+.about-us p{
+	font-size: 11px;
+	line-height: 1.7em;
+}
+.logo {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.about-us {
+    width: 100%;
+    padding: 50px 0px;
+    
+}
+
+.portfolio h1 {
+    font-size: 30px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 36px 0px 10px 0px;
+}
+
+.portfolio {
+    width: 100%;
+    float: left;
+    background: #1E1E1E;
+    padding: 50px 0px 50px 0px;
+    background-image: url("../images/bg1.png");
+}
+
+.portfolio .btn {
+    width: 100%;
+    color: #EEEEEE;
+    background: #00ADB5;
+    margin: 20px 0px 20px 0px;
+    border-radius: 25px;
+    transition: 1s ease-in;
+}
+
+.form {
+    width: 100%;
+    float: left;
+    background: #1E1E1E;
+    padding: 50px 0px 50px 0px;
+}
+
+.form h1 {
+    font-size: 29px;
+    line-height: 1.3em;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 36px 0px 10px 0px;
+}
+
+.form textarea {
+    width: 276px;
+    height: 214px;
+    background: #393E46;
+    border: #393E46;
+    color: #EEEEEE;
+}
+
+.form .btn {
+    width: 100%;
+    color: #EEEEEE;
+    background: #00ADB5;
+    margin: 20px 0px 20px 0px;
+    border-radius: 25px;
+    transition: 1s ease-in;
+}
+
+.footer a {
+    font-size: 9px;
+    color: #EEEEEE;
+    padding: 0px 0px 0px 10px;
+}
+
+.footer i {
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 100%;
+    background: #393E46;
+    margin: 20px 0px 0px 0px;
+}
+
+
+
+ .footer p{
+ 	font-size:11px ;
+ 	line-height: 1.7em;
+ 	text-align: center;
+ }
+
+/*------css end-----*/
+ }
+
+ 
+
+
+ /*--------css media quaries : heigh resulation mobile device 
+           & low tab screen resulation:481px to 767px------*/
+
+  @media (min-width: 481px) and (max-width: 767px) {
+
+/*------css start-----*/
+.container{
+  width: 95%;
+  float: left;
+  
+}
+
+.row{
+	width: 100%;
+	float: left;
+	padding: 0px 15px;
+}
+
+.col-6{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float:left;
+}
+.col-5{ 
+	width: 100%;
+	float: left;
+
+}
+.col-7{
+width: 100%;
+	float: left;
+}
+.logo{
+	display: block;
+	text-align:left;
+}
+.navbar{
+	width: 100%;
+	text-align: center;
+}
+.nabver li a {
+    font-size: 14px;
+    line-height: 17px;
+    color: #EEEEEE;
+    padding: 0px 14px 0px 0px;
+}
+
+.banner .arrow{
+	width: 96px;
+	height: 96px;
+	text-align: center;
+	background:#393E46;
+	margin: 79px 0px 0px 124px;
+
+}
+.banner h1 {
+    font-size: 28px;
+    line-height: 1.2em;
+    
+}
+.banner .btn {
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+ }
+
+ .banner .arrow {
+    width: 91px;
+    height: 89px;
+    text-align: center;
+    background: #393E46;
+    margin: 48px 0px 34px 47px;
+}
+
+.about-us h2{
+	font-size: 28px;
+	line-height: 1.2em;
+
+}
+
+
+.about-us p{
+	font-size: 12px;
+	line-height: 1.7em;
+}
+.logo {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.about-us {
+    width: 100%;
+    padding: 50px 0px;
+    
+}
+
+.portfolio h1 {
+    font-size: 32px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 36px 0px 10px 0px;
+}
+
+.portfolio {
+    width: 100%;
+    float: left;
+    background: #1E1E1E;
+    padding: 50px 0px 50px 0px;
+    background-image: url("../images/bg1.png");
+}
+
+.portfolio .btn {
+    
+    color: #EEEEEE;
+    background: #00ADB5;
+    margin: 20px 0px 20px 0px;
+    border-radius: 25px;
+    transition: 1s ease-in;
+}
+
+.form {
+    width: 100%;
+    float: left;
+    background: #1E1E1E;
+    padding: 50px 0px 50px 0px;
+}
+
+.form h1 {
+    font-size: 32px;
+    line-height: 1.3em;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 36px 0px 10px 0px;
+}
+
+.form textarea {
+    width: 276px;
+    height: 214px;
+    background: #393E46;
+    border: #393E46;
+    color: #EEEEEE;
+}
+
+.form .btn {
+    
+    color: #EEEEEE;
+    background: #00ADB5;
+    margin: 20px 0px 20px 0px;
+    border-radius: 25px;
+    transition: 1s ease-in;
+}
+
+.footer a {
+    font-size: 11px;
+    color: #EEEEEE;
+    padding: 0px 0px 0px 10px;
+}
+
+.footer i {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 100%;
+    background: #393E46;
+    margin: 20px 0px 0px 0px;
+}
+
+
+
+ .footer p{
+ 	font-size:12px ;
+ 	line-height: 1.7em;
+ 	text-align: center;
+ }
+
+/*------css end-----*/
+ }
+
+ /*--------css media quaries : heigh resulation tab & mini note book
+           screen resulation:768px to 1024px------*/
+
+ @media (min-width: 768px) and (max-width: 1024px) {
+/*------css start-----*/
+.container{
+  width: 98%;
+  float: left;
+  
+}
+
+.row{
+	width: 100%;
+	float: left;
+	padding: 0px 15px;
+}
+
+.col-6{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float:left;
+}
+.col-5{ 
+	width: 100%;
+	float: left;
+
+}
+.col-7{
+width: 100%;
+	float: left;
+}
+.logo{
+	display: block;
+	text-align: center;
+}
+.navbar{
+	width: 100%;
+	text-align: center;
+}
+.nabver li a {
+    font-size: 14px;
+    line-height: 17px;
+    color: #EEEEEE;
+    padding: 0px 14px 0px 0px;
+}
+
+.banner .arrow{
+	width: 96px;
+	height: 96px;
+	text-align: center;
+	background:#393E46;
+	margin: 79px 0px 0px 124px;
+
+}
+.banner h1 {
+    font-size: 34px;
+    line-height: 1.3em;
+    
+}
+.banner .btn {
+    width: 100%;
+ }
+
+ .banner .arrow {
+    width: 91px;
+    height: 89px;
+    text-align: center;
+    background: #393E46;
+    margin: 48px 0px 34px 47px;
+}
+
+.about-us h2{
+	font-size: 28px;
+	line-height: 1.2em;
+
+}
+
+
+.about-us p{
+	font-size: 16px;
+	line-height: 1.7em;
+}
+.logo {
+    display: block;
+    text-align:left;
+    width: 100%;
+}
+.about-us {
+    width: 100%;
+    padding: 50px 0px;
+    
+}
+
+.portfolio h1 {
+    font-size: 34px;
+    line-height: 1.3em;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 36px 0px 10px 0px;
+}
+
+.portfolio {
+    
+    float: left;
+    background: #1E1E1E;
+    padding: 50px 0px 50px 0px;
+    background-image: url("../images/bg1.png");
+}
+
+.portfolio .btn {
+    
+    color: #EEEEEE;
+    background: #00ADB5;
+    margin: 20px 0px 20px 0px;
+    border-radius: 25px;
+    transition: 1s ease-in;
+}
+
+.form {
+    
+    float: left;
+    background: #1E1E1E;
+    padding: 50px 0px 50px 0px;
+}
+
+.form h1 {
+    font-size: 34px;
+    line-height: 1.3em;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 36px 0px 10px 0px;
+}
+
+.form textarea {
+    width: 276px;
+    height: 214px;
+    background: #393E46;
+    border: #393E46;
+    color: #EEEEEE;
+}
+
+.form .btn {
+    
+    color: #EEEEEE;
+    background: #00ADB5;
+    margin: 20px 0px 20px 0px;
+    border-radius: 25px;
+    transition: 1s ease-in;
+}
+
+.footer a {
+    font-size: 13px;
+    color: #EEEEEE;
+    padding: 0px 0px 0px 10px;
+}
+
+.footer i {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 100%;
+    background: #393E46;
+    margin: 20px 0px 0px 0px;
+}
+
+
+
+ .footer p{
+ 	font-size:16px ;
+ 	line-height: 1.7em;
+ 	
+ }
+
+/*------css end-----*/
+ }
+
